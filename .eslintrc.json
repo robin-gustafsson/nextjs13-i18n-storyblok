@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "rules": {
+    "no-underscore-dangle": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/prop-types": 0,
+    "react/require-default-props": "off",
+    "react/no-danger": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-no-useless-fragment": 0,
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

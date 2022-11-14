@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "layer",
+          "screen",
+          "tailwind"
+        ]
+      }
+    ],
+    "string-quotes": "single",
+    "unit-allowed-list": [
+      "%",
+      "deg",
+      "em",
+      "fr",
+      "rem",
+      "s",
+      "vh",
+      "vw",
+      "dpcm"
+    ]
+  },
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.jsx",
+    "**/*.tsx"
+  ]
+}
